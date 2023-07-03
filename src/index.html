@@ -6,104 +6,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="ItaCeramica" />
   <meta name="description" content="Produtos Ceriamicos para Construção">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <title>ItaCeramica - Produtos Cerâmicos para Construção</title>
+  <link rel="stylesheet" type="text/css" href="/src/css/style.css">
 </head>
 
 <body>
-  <h1>Bem-vindo à ItaCeramica</h1>
+  <div class="header">
+    <img src="/src/img/Itaceramica.png" alt="Logotipo-Itaceramica" class="logo">
+    <div class="search-bar">
+      <input type="search" placeholder="Pesquisar">
+      <button type="submit">Buscar</button>
+    </div>
+  </div>
 
-  <h2>Produtos</h2>
-  <table>
-    <tr>
-      <td>
-        <a href="pages/products/filtro_ceramico_da_espuma.html">
-          <img src="img/Filtro cerâmico da espuma da alumínio P.webp" alt="Filtro cerâmico de espuma da aluminio"
-            width="200 rem">
-          <p>Filtro Cerâmico</p>
-        </a>
-      </td>
-      <td>
-        <a href="pages/products/piso_ceramico_acetinado.html">
-          <img src="img/Piso Cerâmico Acetinado Borda Bold Madeirado P.webp"
-            alt="Piso Cerâmico Acetinado Borda Bold Madeirado" width="200 rem">
-          <p>Piso Cerâmico acetinado</p>
-        </a>
-      </td>
-      <td>
-        <a href="pages/products/piso_ceramico_borda.html">
-          <img src="img/Piso cerâmico Borda bold pomes P.webp" alt="Piso cerâmico Borda bold pomes" width="220 rem">
-          <p>Piso Cerâmico borda bold</p>
-        </a>
-      </td>
-      <td>
-        <a href="pages/products/placa_ceramica.html">
-          <img src="img/Placa de cerâmica para hotel P.webp" alt="Placa de cerâmica para hotel" width="190 rem">
-          <p>Placa de cerâmica</p>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <a href="pages/products/filtro_ceramico_da_espuma.html">
-          <img src="img/Filtro cerâmico da espuma da alumínio P.webp" alt="Filtro cerâmico de espuma da aluminio"
-            width="200 rem">
-          <p>Filtro Cerâmico</p>
-        </a>
-      </td>
-      <td>
-        <a href="pages/products/piso_ceramico_acetinado.html">
-          <img src="img/Piso Cerâmico Acetinado Borda Bold Madeirado P.webp"
-            alt="Piso Cerâmico Acetinado Borda Bold Madeirado" width="200 rem">
-          <p>Piso Cerâmico acetinado</p>
-        </a>
-      </td>
-      <td>
-        <a href="pages/products/piso_ceramico_borda.html">
-          <img src="img/Piso cerâmico Borda bold pomes P.webp" alt="Piso cerâmico Borda bold pomes" width="220 rem">
-          <p>Piso Cerâmico borda bold</p>
-        </a>
-      </td>
-      <td>
-        <a href="pages/products/placa_ceramica.html">
-          <img src="img/Placa de cerâmica para hotel P.webp" alt="Placa de cerâmica para hotel" width="190 rem">
-          <p>Placa de cerâmica</p>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <a href="pages/products/filtro_ceramico_da_espuma.html">
-          <img src="img/Filtro cerâmico da espuma da alumínio P.webp" alt="Filtro cerâmico de espuma da aluminio"
-            width="200 rem">
-          <p>Filtro Cerâmico</p>
-        </a>
-      </td>
-      <td>
-        <a href="pages/products/piso_ceramico_acetinado.html">
-          <img src="img/Piso Cerâmico Acetinado Borda Bold Madeirado P.webp"
-            alt="Piso Cerâmico Acetinado Borda Bold Madeirado" width="200 rem">
-          <p>Piso Cerâmico acetinado</p>
-        </a>
-      </td>
-      <td>
-        <a href="pages/products/piso_ceramico_borda.html">
-          <img src="img/Piso cerâmico Borda bold pomes P.webp" alt="Piso cerâmico Borda bold pomes" width="220 rem">
-          <p>Piso Cerâmico borda bold</p>
-        </a>
-      </td>
-      <td>
-        <a href="pages/products/placa_ceramica.html">
-          <img src="img/Placa de cerâmica para hotel P.webp" alt="Placa de cerâmica para hotel" width="190 rem">
-          <p>Placa de cerâmica</p>
-        </a>
-      </td>
-    </tr>
-  </table>
+  <div class="banner">
+    <h1 class="titulo-banner">
+      Promoções <br> imperdiveis!
+    </h1>
+  </div>
 
-  <h3>Entrar em contato com Itaceramica:</h3>
-  <a href="pages/contact.html">
-    <button type="button">Entrar em contato</button>
-  </a>
-</body>
 
-</html>
+  <div class="product-grid">
+    <div class="product">
+      <img class="img-product" src="img/Filtro cerâmico da espuma da alumínio P.webp" alt="Filtro cerâmico da espuma">
+      <h5>Filtro cerâmico da espuma</h5>
+      <p>Um filtro cerâmico</p>
+      <button class="buy-button">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img class="img-product" src="img/Filtro cerâmico da espuma da alumínio P.webp" alt="Piso Cerâmico Acetinado">
+      <h5>Piso Cerâmico Acetinado</h5>
+      <p>Filtro cerâmico de espuma</p>
+      <button class="buy-button">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img class="img-product" src="img/Piso cerâmico Borda bold pomes P.webp" alt="Piso cerâmico Borda">
+      <h5>Piso cerâmico Borda</h5>
+      <p>Piso cerâmico borda</p>
+      <button class="buy-button">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img class="img-product" src="img/Placa de cerâmica para hotel P.webp" alt="Placa de cerâmica para hotel">
+      <h5>Placa de cerâmica</h5>
+      <p>Placa de cerâmica</p>
+      <button class="buy-button">Add to Cart</button>
+    </div>
+    <!-- Add more product elements here -->
+  </div>
