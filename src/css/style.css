@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
 }
 
 .header {
@@ -38,6 +39,112 @@ body {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
+}
+
+section.slider{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.slide-box{
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    transition: 1s;
+}
+
+.slide-box img{
+    width: 100%;
+}
+
+.slider-content{
+    width: 400%;
+    height: auto;
+    display: flex;
+}
+
+.slider-content input, .slide-mobile{
+    display: none;
+}
+
+#radio1:checked ~ .primeiro{
+    margin-left: 0%;
+}
+
+#radio2:checked ~ .primeiro{
+    margin-left: -25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.banner {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(180deg,
+            rgba(0, 0, 0, 0) 0.15%,
+            rgba(0, 0, 0, 0.8) 200%),
+        url('/src/img/promocao-itaceramica.webp') no-repeat center center/cover;
+}
+
+.titulo-banner {
+    display: flex;
+    align-items: center;
+    margin-left: 16%;
+    font-size: 80px;
+    font-weight: 700;
+    color: #f2f2f2;
 }
 
 .product-grid {
@@ -81,25 +188,6 @@ body {
     cursor: pointer;
 }
 
-.titulo-banner {
-    display: flex;
-    align-items: center;
-    margin-left: 16%;
-    font-size: 80px;
-    font-weight: 700;
-    color: #f2f2f2;
-}
-
-.banner {
-    display: flex;
-    width: 100%;
-    height: 400px;
-    background: linear-gradient(180deg,
-            rgba(0, 0, 0, 0) 0.15%,
-            rgba(0, 0, 0, 0.8) 200%),
-        url('/src/img/promocao-itaceramica.webp') no-repeat center center/cover;
-}
-
 @media (max-width: 768px) {
     .titulo-banner {
         display: flex;
@@ -119,4 +207,4 @@ body {
     .product {
         width: 100%;
     }
-}
+} */
