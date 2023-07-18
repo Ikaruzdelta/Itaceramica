@@ -13,3 +13,10 @@ function proxImg() {
     }
     document.getElementById('radio' + cont).checked = true;
 }
+
+document.getElementById("contact-form").addEventListener("submit", function (event) {
+    event.preventDefault();
+    var formData = new FormData(this);
+    var formDataSerialized = Object.fromEntries(formData.entries());
+    console.log(formDataSerialized);
+});
